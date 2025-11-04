@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--grey-900);
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--grey-800);
+    border-radius: 0.5rem;
+
+    height: auto;
+    width: 23rem;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    overflow: hidden;
+
+    position: relative;
+    margin: 0 auto;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.profile {
+    margin: 1.5rem 0;
+}
+
+.profile h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.9rem;
+}
+
+.profile h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--green);
+    margin-top: 0.1rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.1rem;
+
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.links li {
+    list-style: none;
+    background-color: var(--grey-700);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.links li:hover {
+    background-color: var(--green);
+}
+
+.links li:focus {
+    background-color: var(--green);
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.attribution {
+    text-align: center;
+    margin: 0 auto;;
+    font-size: 0.9rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+@media only screen and (min-width: 1440px) {
+    .card {
+            width: 25rem;
+            padding: 2.4rem;
+    }
+}
