@@ -89,7 +89,7 @@ body {
     background-color: var(--green);
 }
 
-.links li:focus {
+.links a:focus {
     background-color: var(--green);
 }
 
