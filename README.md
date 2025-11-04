@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social-Links-Profile](https://www.frontendmentor.io/solutions/mobile-first-approach-using-flexbox-zqObd13zQR)
+- Live Site URL: [Social-Links-Profile](https://niisari.github.io/social-links-profile-main/)
 
 ## My process
 
