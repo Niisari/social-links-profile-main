@@ -90,7 +90,7 @@ body {
 }
 
 .links a:focus {
-    background-color: var(--green);
+    color: var(--green);
 }
 
 .links a {
